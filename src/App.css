@@ -1,0 +1,52 @@
+#App {
+  text-align: center;
+  background-color: #525252;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+#wingpane1{
+  height: 100vh;
+  width: calc(50vw - 2px);
+}
+#miniline{
+  background-color: black;
+  height: 100vh;
+  width: 1px;
+}
+
+#wingpane2{
+  height: 100vh;
+  width: calc(50vw - 2px);
+}
+#list{
+  margin-top: 10px;
+  color: lightgray;
+}
+#arch{
+  background-color: white;
+  margin-top: 20px;
+  width: 25px;
+  width: 90px;
+  padding-bottom: 5px;
+  margin: auto;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+#in{
+  width: 250px;
+  outline:none;
+  height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
